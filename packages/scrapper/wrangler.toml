@@ -1,0 +1,6 @@
+name = "scrapper"
+main = "src/index.ts"
+compatibility_date = "2023-05-09"
+
+[triggers]
+crons = [ "1 * * * *" ]

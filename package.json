@@ -8,5 +8,8 @@
     "packages/*"
   ],
   "author": "themetalfleece",
-  "license": "ISC"
+  "license": "ISC",
+  "scripts": {
+    "scrapper": "yarn workspace @cf-workers-pokemon-scrapper-api/scrapper"
+  }
 }
