@@ -11,10 +11,10 @@ export default {
     env: Env,
     _ctx: ExecutionContext,
   ): Promise<void> {
-    const pokemon = await scrapeAllPokemon();
+    const allPokemon = await scrapeAllPokemon();
 
     await Promise.all(
-      pokemon.map((pokemon) => setPokemon(env.POKEMON, pokemon)),
+      allPokemon.map((pokemon) => setPokemon(env.POKEMON, pokemon)),
     );
   },
 };
