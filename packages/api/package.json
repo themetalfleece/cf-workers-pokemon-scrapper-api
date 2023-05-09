@@ -1,5 +1,5 @@
 {
-  "name": "@cf-workers-pokemon-scrapper-api/scrapper",
+  "name": "@cf-workers-pokemon-scrapper-api/api",
   "version": "1.0.0",
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20230419.0",
@@ -23,7 +23,6 @@
     "format": "prettier --loglevel silent --write src/**/*.ts"
   },
   "dependencies": {
-    "cheerio": "^1.0.0-rc.12",
     "slug": "^8.2.2"
   }
 }

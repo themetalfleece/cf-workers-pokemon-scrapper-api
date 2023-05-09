@@ -4,9 +4,13 @@
 Run `yarn`.
 
 ### Run locally
-Run `wrangler dev --local`.
+Run `yarn dev`.
 To triggered the scheduled event, run `curl "http://localhost:8787/cdn-cgi/mf/scheduled"`.
 
 ### Publish
 
-Run `wrangler publish --name pokemon-database-scrapper`.
+Run `yarn deploy`.
+
+### Cron
+
+You can configure the cron trigger from the Cloudflare Dashboard or the `wrangler.toml` file.
