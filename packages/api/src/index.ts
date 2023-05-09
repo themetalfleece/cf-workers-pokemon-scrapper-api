@@ -5,7 +5,7 @@ import {
 } from './cachedRequest.util';
 import { getPokemon } from '../../common/src/pokemon.model';
 
-const cacheSeconds = 5;
+const cacheSeconds = 60 * 60 * 24;
 
 export interface Env {
   POKEMON: KVNamespace;
