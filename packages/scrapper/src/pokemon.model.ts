@@ -1,3 +1,5 @@
+import slug from 'slug';
+
 export interface PokemonI {
   number: number;
   name: string;
@@ -12,5 +14,5 @@ export interface PokemonI {
 }
 
 export const setPokemon = (namespace: KVNamespace, pokemon: PokemonI) => {
-  return namespace.put(pokemon.name.toLowerCase(), JSON.stringify(pokemon));
+  return namespace.put(slug(pokemon.name), JSON.stringify(pokemon));
 };
