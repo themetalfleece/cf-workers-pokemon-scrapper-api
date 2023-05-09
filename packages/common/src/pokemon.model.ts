@@ -1,4 +1,4 @@
-import slug from 'slug';
+import slug from "slug";
 
 export interface PokemonI {
   number: number;
@@ -11,6 +11,7 @@ export interface PokemonI {
   speed: number;
   total: number;
   imageUrl: string | undefined;
+  types: string[];
 }
 
 export const getPokemon = (namespace: KVNamespace, pokemonName: string) => {

@@ -33,6 +33,8 @@ const pasePokemonHtml = (html: string) => {
       const spDefense = tree(element).find('td.cell-num').eq(5).text();
       const speed = tree(element).find('td.cell-num').eq(6).text();
       const total = tree(element).find('td.cell-total').text();
+      const type1 = tree(element).find('td.cell-icon').text();
+      const type2 = tree(element).find('td.cell-icon').eq(1).text();
 
       return {
         number: +number,
@@ -45,6 +47,7 @@ const pasePokemonHtml = (html: string) => {
         speed: +speed,
         total: +total,
         imageUrl,
+        types: [type1, type2].filter((type) => !!type),
       } satisfies PokemonI;
     })
     .filter((pokemon) => pokemon !== null);
