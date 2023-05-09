@@ -1,0 +1,12 @@
+{
+  "name": "cf-workers-pokemon-scrapper-api",
+  "version": "1.0.0",
+  "description": "Using Cloudflare Workers and KV to scrape pokemon data and server them on an endpoint",
+  "main": "index.js",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "author": "themetalfleece",
+  "license": "ISC"
+}
