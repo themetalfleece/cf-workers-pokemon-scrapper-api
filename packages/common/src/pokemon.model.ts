@@ -16,3 +16,7 @@ export interface PokemonI {
 export const getPokemon = (namespace: KVNamespace, pokemonName: string) => {
   return namespace.get(slug(pokemonName));
 };
+
+export const setPokemon = (namespace: KVNamespace, pokemon: PokemonI) => {
+  return namespace.put(slug(pokemon.name), JSON.stringify(pokemon));
+};

@@ -1,5 +1,5 @@
 import { Cheerio, load } from 'cheerio';
-import { PokemonI } from './pokemon.model';
+import { PokemonI } from '../../common/src/pokemon.model';
 
 const MIN_GENERATION = 1;
 const MAX_GENERATION = 9;

@@ -3,7 +3,7 @@ import {
   getCachedResponse,
   setCacheHeaders,
 } from './cachedRequest.util';
-import { getPokemon } from './pokemon.model';
+import { getPokemon } from '../../common/src/pokemon.model';
 
 const cacheSeconds = 5;
 

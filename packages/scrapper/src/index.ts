@@ -1,4 +1,4 @@
-import { setPokemon } from './pokemon.model';
+import { setPokemon } from '../../common/src/pokemon.model';
 import { scrapeAllPokemon } from './scrapper.util';
 
 export interface Env {
