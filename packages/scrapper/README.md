@@ -10,7 +10,3 @@ To triggered the scheduled event, run `curl "http://localhost:8787/cdn-cgi/mf/sc
 ### Publish
 
 Run `wrangler publish --name pokemon-database-scrapper`.
-
-## Cloudflare Setup
-
-- Create a `POKEMON` KV namespace: `wrangler kv:namespace create "POKEMON"`
