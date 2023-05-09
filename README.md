@@ -14,7 +14,7 @@ Typescript was used for both workers.
 ## Cloudflare Setup
 
 1. Create a `POKEMON` KV namespace: `wrangler kv:namespace create "POKEMON"` and `wrangler kv:namespace create POKEMON --preview`.
-2. Replace the keys in `packages/scrapper/wrangler.toml` file with the ones you got from these commands.
+2. Replace the keys in the `packages/scrapper/wrangler.toml` and `packages/api/wrangler.toml` files with the ones you got from these commands.
 3. Head to each project's README.
 
 ## Example usage
