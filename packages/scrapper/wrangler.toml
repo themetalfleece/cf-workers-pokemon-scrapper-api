@@ -2,5 +2,9 @@ name = "scrapper"
 main = "src/index.ts"
 compatibility_date = "2023-05-09"
 
+kv_namespaces = [
+  { binding = "POKEMON", id = "262e07e3d3dc468a854c565bfc130101", preview_id = "0e091be854e8420c94feee363210591a" }
+]
+
 [triggers]
 crons = [ "1 * * * *" ]
