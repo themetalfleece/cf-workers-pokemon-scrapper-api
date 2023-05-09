@@ -1,4 +1,5 @@
-import { scrapper } from './scrapper.util';
+import { setPokemon } from './pokemon.model';
+import { scrapeAllPokemon } from './scrapper.util';
 
 export interface Env {
   POKEMON: KVNamespace;
@@ -6,10 +7,14 @@ export interface Env {
 
 export default {
   async scheduled(
-    controller: ScheduledController,
+    _controller: ScheduledController,
     env: Env,
-    ctx: ExecutionContext,
+    _ctx: ExecutionContext,
   ): Promise<void> {
-    await scrapper();
+    const pokemon = await scrapeAllPokemon();
+
+    await Promise.all(
+      pokemon.map((pokemon) => setPokemon(env.POKEMON, pokemon)),
+    );
   },
 };
