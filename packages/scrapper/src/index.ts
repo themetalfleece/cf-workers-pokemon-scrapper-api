@@ -1,3 +1,5 @@
+import { scrapper } from './scrapper.util';
+
 export interface Env {
   POKEMON: KVNamespace;
 }
@@ -6,8 +8,8 @@ export default {
   async scheduled(
     controller: ScheduledController,
     env: Env,
-    ctx: ExecutionContext
+    ctx: ExecutionContext,
   ): Promise<void> {
-    console.log(`Hello World!`);
+    await scrapper();
   },
 };
