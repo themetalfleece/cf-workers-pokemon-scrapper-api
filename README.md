@@ -19,10 +19,10 @@ Typescript was used for both workers.
 
 ## Example usage
 
-[https://poke-api.athanasoglou.gr/?pokemon=raikou](https://poke-api.athanasoglou.gr/?pokemon=raikou)
+[https://poke-api.athanasoglou.gr/?name=raikou](https://poke-api.athanasoglou.gr/?name=raikou)
 
 For Pokemon with symbols, spaces, etc, you can use a slug like:
 
-[https://poke-api.athanasoglou.gr/?pokemon=iron-moth](https://poke-api.athanasoglou.gr/?pokemon=iron-moth)
+[https://poke-api.athanasoglou.gr/?name=iron-moth](https://poke-api.athanasoglou.gr/?name=iron-moth)
 
-[https://poke-api.athanasoglou.gr/?pokemon=mr-mine](https://poke-api.athanasoglou.gr/?pokemon=mr-mine)
+[https://poke-api.athanasoglou.gr/?name=mr-mine](https://poke-api.athanasoglou.gr/?name=mr-mine)

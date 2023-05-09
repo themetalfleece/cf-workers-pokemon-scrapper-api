@@ -18,11 +18,11 @@ const handler = {
     const { cacheKey, cache } = cacheData;
 
     const params = new URL(request.url).searchParams;
-    const pokemonName = params.get('pokemon');
+    const pokemonName = params.get('name');
 
     if (!pokemonName) {
       return new Response(
-        'No pokemon name provided via search params. Please use it with the format ?pokemon=raikou',
+        'No pokemon name provided via search params. Please use it with the format ?name=raikou',
         {
           status: 400,
         },
