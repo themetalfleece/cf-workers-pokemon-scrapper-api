@@ -1,5 +1,5 @@
 {
-  "name": "cf-workers-pokemon-scrapper-api",
+  "name": "cf-workers-pokemon-scraper-api",
   "version": "1.0.0",
   "description": "Using Cloudflare Workers and KV to scrape pokemon data and serve them on an endpoint.",
   "main": "index.js",
@@ -10,6 +10,6 @@
   "author": "themetalfleece",
   "license": "ISC",
   "scripts": {
-    "scrapper": "yarn workspace @cf-workers-pokemon-scrapper-api/scrapper"
+    "scraper": "yarn workspace @cf-workers-pokemon-scraper-api/scraper"
   }
 }

@@ -1,4 +1,4 @@
-# scrapper
+# scraper
 
 ### Install dependencies
 Run `yarn`.

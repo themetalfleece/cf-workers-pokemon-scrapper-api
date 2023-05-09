@@ -31,7 +31,6 @@ const handler = {
 
     if (!response) {
       const pokemonData = await getPokemon(env.POKEMON, pokemonName);
-      console.log(pokemonData);
 
       if (!pokemonData) {
         return new Response(`Pokemon ${pokemonName} not found`, {

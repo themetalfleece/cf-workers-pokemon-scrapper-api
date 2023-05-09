@@ -1,5 +1,5 @@
 import { setPokemon } from '../../common/src/pokemon.model';
-import { scrapeAllPokemon } from './scrapper.util';
+import { scrapeAllPokemon } from './scraper.util';
 
 export interface Env {
   POKEMON: KVNamespace;

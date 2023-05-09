@@ -1,5 +1,5 @@
 {
-  "name": "@cf-workers-pokemon-scrapper-api/api",
+  "name": "@cf-workers-pokemon-scraper-api/api",
   "version": "1.0.0",
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20230419.0",

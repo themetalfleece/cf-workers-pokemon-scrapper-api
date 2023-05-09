@@ -1,4 +1,4 @@
-name = "pokemon-scrapper"
+name = "pokemon-scraper"
 main = "src/index.ts"
 compatibility_date = "2023-05-09"
 
