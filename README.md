@@ -25,7 +25,7 @@ For Pokemon with symbols, spaces, etc, you can use a slug like:
 
 [https://poke-api.athanasoglou.gr/?name=iron-moth](https://poke-api.athanasoglou.gr/?name=iron-moth)
 
-[https://poke-api.athanasoglou.gr/?name=mr-mine](https://poke-api.athanasoglou.gr/?name=mr-mine)
+[https://poke-api.athanasoglou.gr/?name=mr-mime](https://poke-api.athanasoglou.gr/?name=mr-mime)
 
 ## Running commands
 
