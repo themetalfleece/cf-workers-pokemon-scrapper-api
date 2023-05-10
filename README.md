@@ -17,7 +17,7 @@ Typescript was used for both workers.
 2. Replace the keys in the `packages/scraper/wrangler.toml` and `packages/api/wrangler.toml` files with the ones you got from these commands.
 3. Head to each project's README.
 
-## Example usage
+## Example API usage
 
 [https://poke-api.athanasoglou.gr/?name=raikou](https://poke-api.athanasoglou.gr/?name=raikou)
 
@@ -26,3 +26,14 @@ For Pokemon with symbols, spaces, etc, you can use a slug like:
 [https://poke-api.athanasoglou.gr/?name=iron-moth](https://poke-api.athanasoglou.gr/?name=iron-moth)
 
 [https://poke-api.athanasoglou.gr/?name=mr-mine](https://poke-api.athanasoglou.gr/?name=mr-mine)
+
+## Running commands
+
+You can run package commands directly from the root directory, like:
+```
+yarn api dev
+```
+or
+```
+yarn scraper deploy
+```
