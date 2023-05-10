@@ -33,8 +33,8 @@ const pasePokemonHtml = (html: string) => {
       const spDefense = tree(element).find('td.cell-num').eq(5).text();
       const speed = tree(element).find('td.cell-num').eq(6).text();
       const total = tree(element).find('td.cell-total').text();
-      const type1 = tree(element).find('td.cell-icon').text();
-      const type2 = tree(element).find('td.cell-icon').eq(1).text();
+      const type1 = tree(element).find('td.cell-icon a').eq(0).text();
+      const type2 = tree(element).find('td.cell-icon a').eq(1).text();
 
       return {
         number: +number,
