@@ -19,13 +19,13 @@ Typescript was used for both workers.
 
 ## Example API usage
 
-[https://poke-api.athanasoglou.gr/?name=raikou](https://poke-api.athanasoglou.gr/?name=raikou)
+[https://cf-poke-api.themetalfleece.dev/?name=raikou](https://cf-poke-api.themetalfleece.dev/?name=raikou)
 
 For Pokemon with symbols, spaces, etc, you can use a slug like:
 
-[https://poke-api.athanasoglou.gr/?name=iron-moth](https://poke-api.athanasoglou.gr/?name=iron-moth)
+[https://cf-poke-api.themetalfleece.dev/?name=iron-moth](https://cf-poke-api.themetalfleece.dev/?name=iron-moth)
 
-[https://poke-api.athanasoglou.gr/?name=mr-mime](https://poke-api.athanasoglou.gr/?name=mr-mime)
+[https://cf-poke-api.themetalfleece.dev/?name=mr-mime](https://cf-poke-api.themetalfleece.dev/?name=mr-mime)
 
 ## Running commands
 
